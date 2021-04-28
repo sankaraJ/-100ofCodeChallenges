@@ -1,7 +1,3 @@
-Day 1 : Arrays: In-Place Operations
-
-#100daysofcodechallenge 
-
 def replaceElementwithGreatestontheright(nums):
   if len(nums) == 1:
     return [-1]
