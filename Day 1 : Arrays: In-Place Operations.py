@@ -9,3 +9,12 @@ def replaceElementwithGreatestontheright(nums):
       greatest_ = now_
   nums[-1] = -1
   return nums
+
+##Second challenge
+def RemoveDuplicates(nums):
+  count=0
+  for item in nums:
+    if nums[count] != item:
+      count+=1
+      nums[count] = item
+  return count+1
