@@ -9,5 +9,3 @@ def replaceElementwithGreatestontheright(nums):
       greatest_ = now_
   nums[-1] = -1
   return nums
-  
-
