@@ -11,3 +11,9 @@ def thirdMaxElemnt(nums):
     return min(max_nums)
     #otherwise return the maximum of the set
   return max(max_nums)
+
+
+#Squares of sorted array
+def sortedSquares(nums):
+  squares = [x*x for x in nums] 
+  return sorted(squares)
