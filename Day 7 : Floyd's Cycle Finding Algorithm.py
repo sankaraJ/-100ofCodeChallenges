@@ -1,8 +1,16 @@
 #Day : 7   -- Floyd's Cycle Finding Algorithm
 
+#-- Loop through the list with two pointers
+
+#--The slow pointer moves by one step and the fast one by two steps
+
+#--If they meet at some point at the same node, then there is a loop
+
+
+
 class isItCircular_:
     def hasCycle(self, head: ListNode) -> bool:
-        if head is None:    #A ciclical list is determined by the head. A good place to start with
+        if head is None:    #A Circular  list is determined by the head. A good place to start with
             return False
         slow = head
         fast = head.next
